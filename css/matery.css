@@ -241,8 +241,9 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #a0fc89 0%, #0f819d 100%);
 }
+
 
 .text-color {
     color: #0f9d58 !important;
@@ -575,16 +576,16 @@ header .go-back i {
 
 .bg-cover .title {
     font-size: 4rem;
-    line-height: 1.2em;
+    line-height: 1.5em;
     margin-bottom: 20px;
     position: relative;
 }
 
 .bg-cover .description {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 1.4em;
-    color: #eee;
+    color: black;
 }
 
 .bg-cover .post-title {
@@ -593,7 +594,7 @@ header .go-back i {
     font-weight: 400;
 }
 
-@-webkit-keyframes rainbow {
+/* @-webkit-keyframes rainbow {
 
     0%,
     100% {
@@ -683,7 +684,7 @@ header .go-back i {
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
     }
-}
+} */
 
 .index-card {
     margin-top: -10px;
@@ -1852,8 +1853,8 @@ footer .copy-right {
 }
 
 #searchModal {
-    min-height: 500px;
-    width: 80%;
+    min-height: 200px;
+    width: 50%;
 }
 
 #searchModal .search-header .title {
