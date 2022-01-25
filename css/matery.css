@@ -575,13 +575,16 @@ header .go-back i {
 }
 
 .bg-cover .title {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.5em;
     margin-bottom: 20px;
     position: relative;
+    top: 300px;
 }
 
 .bg-cover .description {
+    position: relative;
+    top: 75px;
     font-weight: 300;
     font-size: 2rem;
     line-height: 1.4em;
@@ -1906,6 +1909,8 @@ p.search-result-summary{
     padding-top: 15px;
     margin-bottom: 0;
     z-index: 998;
+    margin-bottom: 60px;
+    margin-right: 6px;
 }
 
 .top-scroll .btn-floating {
