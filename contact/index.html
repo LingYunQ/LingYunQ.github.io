@@ -437,7 +437,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                与君共勉
+                欢迎你。
                 
             </div>
 
@@ -447,12 +447,12 @@
                     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                    <script>
                        var typed = new Typed("#subtitle", {
-                           strings: ['用我三生烟火,换你一世迷离。',
-                                     '投我以桃，报之以李。',
-                                     '没有伞的孩子必须努力奔跑！',
-                                     '莫愁前路无知己，天下谁人不识君。',
-                                     '如果放弃太早，你永远都不知道自己会错过什么。',
-                                     '没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
+                           strings: ['你好。',
+                                     '以后的日子也要好好的。',
+                                     '取次花丛懒回顾,半缘修道半缘君。',
+                                     '此情可待成追忆?只是当时已惘然。',
+                                     '万种思量，多方开解，只恁寂寞厌厌地。系我一生心，负你千行泪。',
+                                     '关于你,还是只有对不起......'],
                             startDelay: 300,
                             typeSpeed: 100,
                             loop: true,   
@@ -510,31 +510,36 @@
             
 
             
+                <link rel="stylesheet" href="/libs/gitment/gitment-default.css">
+<link rel="stylesheet" href="/css/gitment.css">
 
-            
-
-            
-                <div class="livere-card card" data-aos="fade-up">
-    <!-- 来必力City版安装代码 -->
-    <div id="lv-container" class="card-content" data-id="city" data-uid="MTAyMC81NTI4OC8zMTc1NQ==">
-        <script type="text/javascript">
-            (function (d, s) {
-                let j, e = d.getElementsByTagName(s)[0];
-                if (typeof LivereTower === 'function') {
-                    return;
-                }
-
-                j = d.createElement(s);
-                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                j.async = true;
-
-                e.parentNode.insertBefore(j, e);
-            })(document, 'script');
-        </script>
-        <noscript>为正常使用来必力评论功能请激活JavaScript。</noscript>
+<div class="gitment-card card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
     </div>
-    <!-- City版安装代码已完成 -->
+    <div id="gitment-content" class="card-content"></div>
 </div>
+
+<script src="/libs/gitment/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: 'Sun Jan 23 2022 22:16:08 GMT+0800',
+    owner: 'LingYunQ',
+    repo: 'LingYunQ.github.io',
+    oauth: {
+        client_id: '553c2cb120be868eeacd',
+        client_secret: '5a89f4f9add1803b10605e80a0d1b5fa4fadc3f0'
+    }
+});
+
+gitment.render('gitment-content');
+</script>
+
+            
+
+            
+
             
 
             
